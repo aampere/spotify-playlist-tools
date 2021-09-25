@@ -1,0 +1,9 @@
+#Virtual environment
+/spotify-playlist-tools-venv
+
+#Environmental vars
+.env
+
+#Spotipy creates these
+/__pycache__
+.cache*
