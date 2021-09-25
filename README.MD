@@ -2,7 +2,7 @@
 Provides tools for creating a Spotify playlist from a human-created text playlist, and "exploding" an existing Spotify playlist into a larger playlist.
 
 ## Summary
-The Spotify API provides playlist creation and search functions, but some extra work is required to search reliably for tracks taken from a human-created text playlist. In playlistexamples.py I create a playlist and populate it with songs parsed from a text playlist, playlistsmall.txt, taken from the website of a radio show. Then, I "explode" that playlist into a larger playlist which contains the full album containing each of the songs on the original playlist.
+The Spotify API provides playlist creation and search functions, but some extra work is required to search reliably for tracks taken from a human-created text playlist. In `playlistexamples.py` I create a playlist and populate it with songs parsed from a text playlist taken from the website of a radio show. Then, I "explode" that playlist into a larger playlist which contains the full album containing each of the songs on the original playlist.
 
 ## Clever Spotify search
 Although Spotify's built-in search function is quite smart, it cannot find some tracks as written by the human author of the text playlist. For instance, the playlist author has written:
