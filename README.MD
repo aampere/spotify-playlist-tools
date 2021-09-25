@@ -22,7 +22,7 @@ Given an existing playlist, makes a new playlist that contains the full album co
 - Go to https://developer.spotify.com/dashboard/ and log in if necessary.
 - Click "Create an app" and fill in the title and description fields however you like.
 - Save the Client ID and the Client Secret.
-- Create a `.env` file, which will save your API keys as environemnt variables read by the program, containing:
+- Create a `.env` file, which will save your API keys as environment variables read by the program, containing:
   > spotify_cid = "your_client_id"  
   > spotify_secret = "your_client_secret"  
   > spotify_username = "your_username"  

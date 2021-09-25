@@ -1,7 +1,7 @@
 #Virtual environment
 /spotify-playlist-tools-venv
 
-#Environmental vars
+#Environment vars
 .env
 
 #Spotipy creates these

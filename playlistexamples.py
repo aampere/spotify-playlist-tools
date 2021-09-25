@@ -2,10 +2,10 @@ import os
 import dotenv
 import spotifyplaylisttools as spt
 
-#load environmental variables containing my Spotify API keys
+#load environment variables containing my Spotify API keys
 dotenv.load_dotenv()
 
-#set Spotify API info from environmental variables
+#set Spotify API info from environment variables
 cid = os.getenv("spotify_cid") 
 secret = os.getenv("spotify_secret")
 username = os.getenv("spotify_username")
