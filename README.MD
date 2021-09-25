@@ -14,3 +14,16 @@ My strategy for dealing with this is to start with the full track & artist as a 
 
 ## Playlist "explosion"
 Given an existing playlist, makes a new playlist that contains the full album containing each song on the original playlist. I used to listen to whole albums, follow specific artists a lot more closely, and keep an organized library of my music. Now my music is saved in various Spotify playlists filled with one-off tracks I like or have recommended to me. "Someday I'll go listen to that whole album, I tell myself. I would probably like that." Then I forget. 😔 Playlist explosion is the answer to that problem--do a deep dive into the other work of the artists whose singles you love!
+
+## Setup
+- Create and activate virtual environment `spotify-playlist-tools-venv`.
+- Install requirements: pip install -r requirements.txt
+- This program requires you to have a Spotify account (free or premium), and to register an app with Spotify, which gives you the secret API keys required to modify a user's playlists. See the [Spotify API Quickstart Tutorial](https://developer.spotify.com/documentation/web-api/quick-start/) section "Set Up Your Account."
+- Go to https://developer.spotify.com/dashboard/ and log in if necessary.
+- Click "Create an app" and fill in the title and description fields however you like.
+- Save the Client ID and the Client Secret.
+- Create a `.env` file, which will save your API keys as environemnt variables read by the program, containing:
+  > spotify_cid = "your_client_id"  
+  > spotify_secret = "your_client_secret"  
+  > spotify_username = "your_username"  
+- Run `playlistexamples.py`. (When you run the script for the first time, a browser window may open asking you to log in to Spotify.) This script creates a playlist in your Spotify account called "Folk Bazaar" and populates it with songs from an example text playlist `exampleplaylists/playlistshort`. Then it "explodes" the playlist into a larger playlist called "Folk Bazaar (exploded)"
