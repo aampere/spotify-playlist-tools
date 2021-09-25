@@ -17,7 +17,7 @@ Given an existing playlist, makes a new playlist that contains the full album co
 
 ## Setup
 - Create and activate virtual environment `spotify-playlist-tools-venv`.
-- Install requirements: pip install -r requirements.txt
+- Install requirements: `pip install -r requirements.txt`
 - This program requires you to have a Spotify account (free or premium), and to register an app with Spotify, which gives you the secret API keys required to modify a user's playlists. See the [Spotify API Quickstart Tutorial](https://developer.spotify.com/documentation/web-api/quick-start/) section "Set Up Your Account."
 - Go to https://developer.spotify.com/dashboard/ and log in if necessary.
 - Click "Create an app" and fill in the title and description fields however you like.
